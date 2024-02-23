@@ -6,7 +6,6 @@
 
 .ig-logo{
     width: 160px;
-    fill: white;
 }
 .navicons{
     height: 30px;
@@ -35,4 +34,129 @@
 }
 .nav-desc{
     font-size: 16px;
+}
+.main{
+    margin-left:350px;
+    width: 1080px;
+}
+.profilepic{
+    border-radius: 50%;
+    padding: 5px;
+    border: 1px solid rgb(186, 186, 186);
+}
+.profile-display{
+    display: flex;
+    align-items: center;
+    /* background-color: rgb(255, 247, 190); */
+    width: 700px;
+    margin: 0px auto;
+    gap: 100px;
+    padding-top: 50px;
+}
+.profile-action{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 400px;
+}
+.verified{
+    height: 14px;
+    fill: rgb(11, 145, 255);
+}
+.google{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.google-actions{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 500;
+}
+.follow{
+    background-color: rgb(39, 169, 255);
+    border: none;
+    padding: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    width: 90px;
+    border-radius: 12px;
+}
+.message{
+    background-color: rgb(242, 242, 242);
+    border: none;
+    padding: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    width: 100px;
+    border-radius: 12px;
+}
+
+.profile-info{
+    display: flex;
+    gap: 24px;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.val{
+    display: inline;
+    font-weight: 500;
+}
+.user-name{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 2px;
+}
+.threads-acc{
+    background-color: rgb(230, 230, 230);
+    width: 80px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    font-size: 14px;
+    gap: 8px;
+    padding: 0px 8px;
+    margin-bottom: 8px;
+}
+.user-type{
+    font-size: 14px;
+    color: rgb(115, 115, 115);
+    font-weight: 400;
+}
+.user-desc{
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+.items{
+    display: flex;
+    gap: 10px;
+    background-color: rgb(245, 245, 245);
+    padding: 10px;
+    border: none;
+    align-items: center;
+    border-radius: 20px;
+}
+.post-reel-toggle{
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    width: 400px;
+    margin: 10px auto;
+}
+.rule{
+    width: 80%;
+    border: 1px solid rgb(220, 220, 220);
+}
+.row{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
 }
