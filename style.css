@@ -98,6 +98,11 @@ body{
     width: 100px;
     border-radius: 12px;
 }
+.suggest{
+    background-color: rgb(242, 242, 242);
+    padding: 5px;
+    border-radius: 12px;
+}
 
 .profile-info{
     display: flex;
